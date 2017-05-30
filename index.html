@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script
+			src="https://code.jquery.com/jquery-3.2.1.js"
+			integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			crossorigin="anonymous"></script>
+	<title>Document</title>
+</head>
+<body>
+<h2>Шифрование. Простая перестановка.</h2>
+
+<b>Введите текст:</b>
+<p><textarea rows="5" cols="60" name="text" placeholder="Введите текст"  id="text"  ></textarea></p>
+<input type="number" id="number" min="2" max="50"> Параметр шифрования. (Целое число от 2-х)
+<p><input type="submit" value="Зашифровать" id="send"></p>
+<div id="crypt"></div>
+<script src="js.js"></script>
+</body>
+</html>
